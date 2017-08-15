@@ -1,0 +1,144 @@
+
+body{
+background: #ddd url(images/bg.jpg) repeat top left;
+margin:0px;
+}
+
+.navigation {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+	padding-left: 20px;
+}
+
+.navigation>li {
+    float: right;
+}
+
+.navigation>li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 16px 20px;
+    text-decoration: none;
+}
+
+.navigation>li a:hover {
+    background-color: green;
+}
+
+.navigation>li .active {
+	background-color: chartreuse;
+    color: black;
+    font-family: sans-serif;
+}
+.logo{
+	font-size: 32px;
+	float:left !important;
+}
+.logo>a{
+		padding:6px !important;
+}
+
+.banner{
+  background: red; /* For browsers that do not support gradients */
+  background: -webkit-linear-gradient(-90deg, white, chartreuse); /* For Safari 5.1 to 6.0 */
+  background: -o-linear-gradient(-90deg, white, chartreuse); /* For Opera 11.1 to 12.0 */
+  background: -moz-linear-gradient(-90deg, white, chartreuse); /* For Firefox 3.6 to 15 */
+  background: linear-gradient(-90deg, white, chartreuse); /* Standard syntax */
+  min-height: 150px;
+ }
+ h1{
+text-align: center;
+vertical-align: middle;
+line-height: 150px; 
+margin:0px;
+
+ }
+
+ .container{
+background:white;
+
+ }
+ .container>p{
+    text-align: justify;
+    margin-left: 20px;
+    margin-right: 20px;
+	margin-top:0px;
+	margin-bottom:0px;
+	padding:20px;
+	letter-spacing:1px;
+	line-height:1.5em;
+ }
+ .poster{
+width:100%;
+height:100%;
+background-size:cover;
+background-image:linear-gradient(rgba(34, 34, 34, 0.34),rgba(85, 85, 85, 0.82)),url(images/book-fair-678264_1280.jpg);
+background-repeat:no-repeat;
+vertical-align:middle;
+
+ }
+.fancytext{
+font-size:48px;
+margin:0px;
+color:chartreuse;
+padding-top:15%;
+padding-bottom:2%;
+}
+
+.transparent-button{
+background:transparent;
+border:2px solid chartreuse;
+border-radius:5px;
+color:chartreuse;
+padding:10px 20px;
+margin-left:10px;
+margin-right:10px;
+}
+
+.transparent-button:hover{
+background: chartreuse;
+color:white;
+border:2px solid white;
+}
+.inlineimage{
+margin:20px;
+}
+
+.userform{
+margin:5%;
+background:white;
+border-radius:15px;
+padding:2%;
+display:flex;
+}
+
+.childform{
+margin:5%;
+border:1px solid black;
+border-radius:5px;
+width: 40%;
+padding: 2%;
+float:left;
+}
+
+input[type="text"],input[type="password"],input[type="email"]{
+padding:5px;
+margin:3px;
+font-size:14px;
+}
+
+label{
+font-size:14px;
+margin:5px;
+}
+
+table{
+margin:20px;
+}
+td{
+padding:5px;
+}
